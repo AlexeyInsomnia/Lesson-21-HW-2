@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA569AA61C3EFFD3009FEE73 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA569A961C3EFFD3009FEE73 /* 1.jpg */; };
+		FA569AA71C3EFFD3009FEE73 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA569A971C3EFFD3009FEE73 /* 10.jpg */; };
+		FA569AA81C3EFFD3009FEE73 /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA569A981C3EFFD3009FEE73 /* 11.jpg */; };
+		FA569AA91C3EFFD3009FEE73 /* 12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA569A991C3EFFD3009FEE73 /* 12.jpg */; };
+		FA569AAA1C3EFFD3009FEE73 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA569A9A1C3EFFD3009FEE73 /* 2.jpg */; };
+		FA569AAB1C3EFFD3009FEE73 /* 21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA569A9B1C3EFFD3009FEE73 /* 21.jpg */; };
+		FA569AAC1C3EFFD3009FEE73 /* 22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA569A9C1C3EFFD3009FEE73 /* 22.jpg */; };
+		FA569AAD1C3EFFD3009FEE73 /* 23.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA569A9D1C3EFFD3009FEE73 /* 23.jpg */; };
+		FA569AAE1C3EFFD3009FEE73 /* 24.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA569A9E1C3EFFD3009FEE73 /* 24.jpg */; };
+		FA569AAF1C3EFFD3009FEE73 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA569A9F1C3EFFD3009FEE73 /* 3.jpg */; };
+		FA569AB01C3EFFD3009FEE73 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA569AA01C3EFFD3009FEE73 /* 4.jpg */; };
+		FA569AB11C3EFFD3009FEE73 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA569AA11C3EFFD3009FEE73 /* 5.jpg */; };
+		FA569AB21C3EFFD3009FEE73 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA569AA21C3EFFD3009FEE73 /* 6.jpg */; };
+		FA569AB31C3EFFD3009FEE73 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA569AA31C3EFFD3009FEE73 /* 7.jpg */; };
+		FA569AB41C3EFFD3009FEE73 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA569AA41C3EFFD3009FEE73 /* 8.jpg */; };
+		FA569AB51C3EFFD3009FEE73 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA569AA51C3EFFD3009FEE73 /* 9.jpg */; };
 		FAAAE1C81C3C5A6000128B2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAAE1C71C3C5A6000128B2C /* main.m */; };
 		FAAAE1CB1C3C5A6000128B2C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAAE1CA1C3C5A6000128B2C /* AppDelegate.m */; };
 		FAAAE1CE1C3C5A6000128B2C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAAE1CD1C3C5A6000128B2C /* ViewController.m */; };
@@ -15,22 +31,6 @@
 		FAAAE1D61C3C5A6000128B2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAAAE1D41C3C5A6000128B2C /* LaunchScreen.storyboard */; };
 		FAAAE1E11C3C5A6000128B2C /* Lesson_21_HW_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAAE1E01C3C5A6000128B2C /* Lesson_21_HW_2Tests.m */; };
 		FAAAE1EC1C3C5A6000128B2C /* Lesson_21_HW_2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAAE1EB1C3C5A6000128B2C /* Lesson_21_HW_2UITests.m */; };
-		FAAAE20A1C3D8C7800128B2C /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAAE1FA1C3D8C7800128B2C /* 1.jpg */; };
-		FAAAE20B1C3D8C7800128B2C /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAAE1FB1C3D8C7800128B2C /* 10.jpg */; };
-		FAAAE20C1C3D8C7800128B2C /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAAE1FC1C3D8C7800128B2C /* 11.jpg */; };
-		FAAAE20D1C3D8C7800128B2C /* 12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAAE1FD1C3D8C7800128B2C /* 12.jpg */; };
-		FAAAE20E1C3D8C7800128B2C /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAAE1FE1C3D8C7800128B2C /* 2.jpg */; };
-		FAAAE20F1C3D8C7800128B2C /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAAE1FF1C3D8C7800128B2C /* 3.jpg */; };
-		FAAAE2101C3D8C7800128B2C /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAAE2001C3D8C7800128B2C /* 4.jpg */; };
-		FAAAE2111C3D8C7800128B2C /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAAE2011C3D8C7800128B2C /* 5.jpg */; };
-		FAAAE2121C3D8C7800128B2C /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAAE2021C3D8C7800128B2C /* 6.jpg */; };
-		FAAAE2131C3D8C7800128B2C /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAAE2031C3D8C7800128B2C /* 7.jpg */; };
-		FAAAE2141C3D8C7800128B2C /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAAE2041C3D8C7800128B2C /* 8.jpg */; };
-		FAAAE2151C3D8C7800128B2C /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAAE2051C3D8C7800128B2C /* 9.jpg */; };
-		FAAAE2161C3D8C7800128B2C /* 21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAAE2061C3D8C7800128B2C /* 21.jpg */; };
-		FAAAE2171C3D8C7800128B2C /* 22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAAE2071C3D8C7800128B2C /* 22.jpg */; };
-		FAAAE2181C3D8C7800128B2C /* 23.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAAE2081C3D8C7800128B2C /* 23.jpg */; };
-		FAAAE2191C3D8C7800128B2C /* 24.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAAE2091C3D8C7800128B2C /* 24.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +51,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA569A961C3EFFD3009FEE73 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		FA569A971C3EFFD3009FEE73 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+		FA569A981C3EFFD3009FEE73 /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
+		FA569A991C3EFFD3009FEE73 /* 12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.jpg; sourceTree = "<group>"; };
+		FA569A9A1C3EFFD3009FEE73 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		FA569A9B1C3EFFD3009FEE73 /* 21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 21.jpg; sourceTree = "<group>"; };
+		FA569A9C1C3EFFD3009FEE73 /* 22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 22.jpg; sourceTree = "<group>"; };
+		FA569A9D1C3EFFD3009FEE73 /* 23.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 23.jpg; sourceTree = "<group>"; };
+		FA569A9E1C3EFFD3009FEE73 /* 24.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 24.jpg; sourceTree = "<group>"; };
+		FA569A9F1C3EFFD3009FEE73 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		FA569AA01C3EFFD3009FEE73 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		FA569AA11C3EFFD3009FEE73 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		FA569AA21C3EFFD3009FEE73 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		FA569AA31C3EFFD3009FEE73 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		FA569AA41C3EFFD3009FEE73 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		FA569AA51C3EFFD3009FEE73 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
 		FAAAE1C31C3C5A6000128B2C /* Lesson 21 HW 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lesson 21 HW 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAAAE1C71C3C5A6000128B2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FAAAE1C91C3C5A6000128B2C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,22 +83,6 @@
 		FAAAE1E71C3C5A6000128B2C /* Lesson 21 HW 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lesson 21 HW 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAAAE1EB1C3C5A6000128B2C /* Lesson_21_HW_2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lesson_21_HW_2UITests.m; sourceTree = "<group>"; };
 		FAAAE1ED1C3C5A6000128B2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FAAAE1FA1C3D8C7800128B2C /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
-		FAAAE1FB1C3D8C7800128B2C /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
-		FAAAE1FC1C3D8C7800128B2C /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
-		FAAAE1FD1C3D8C7800128B2C /* 12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.jpg; sourceTree = "<group>"; };
-		FAAAE1FE1C3D8C7800128B2C /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
-		FAAAE1FF1C3D8C7800128B2C /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
-		FAAAE2001C3D8C7800128B2C /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
-		FAAAE2011C3D8C7800128B2C /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
-		FAAAE2021C3D8C7800128B2C /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
-		FAAAE2031C3D8C7800128B2C /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
-		FAAAE2041C3D8C7800128B2C /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
-		FAAAE2051C3D8C7800128B2C /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
-		FAAAE2061C3D8C7800128B2C /* 21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 21.jpg; sourceTree = "<group>"; };
-		FAAAE2071C3D8C7800128B2C /* 22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 22.jpg; sourceTree = "<group>"; };
-		FAAAE2081C3D8C7800128B2C /* 23.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 23.jpg; sourceTree = "<group>"; };
-		FAAAE2091C3D8C7800128B2C /* 24.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 24.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +110,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA569A951C3EFFD3009FEE73 /* ImageFiles */ = {
+			isa = PBXGroup;
+			children = (
+				FA569A961C3EFFD3009FEE73 /* 1.jpg */,
+				FA569A971C3EFFD3009FEE73 /* 10.jpg */,
+				FA569A981C3EFFD3009FEE73 /* 11.jpg */,
+				FA569A991C3EFFD3009FEE73 /* 12.jpg */,
+				FA569A9A1C3EFFD3009FEE73 /* 2.jpg */,
+				FA569A9B1C3EFFD3009FEE73 /* 21.jpg */,
+				FA569A9C1C3EFFD3009FEE73 /* 22.jpg */,
+				FA569A9D1C3EFFD3009FEE73 /* 23.jpg */,
+				FA569A9E1C3EFFD3009FEE73 /* 24.jpg */,
+				FA569A9F1C3EFFD3009FEE73 /* 3.jpg */,
+				FA569AA01C3EFFD3009FEE73 /* 4.jpg */,
+				FA569AA11C3EFFD3009FEE73 /* 5.jpg */,
+				FA569AA21C3EFFD3009FEE73 /* 6.jpg */,
+				FA569AA31C3EFFD3009FEE73 /* 7.jpg */,
+				FA569AA41C3EFFD3009FEE73 /* 8.jpg */,
+				FA569AA51C3EFFD3009FEE73 /* 9.jpg */,
+			);
+			path = ImageFiles;
+			sourceTree = SOURCE_ROOT;
+		};
 		FAAAE1BA1C3C5A6000128B2C = {
 			isa = PBXGroup;
 			children = (
@@ -133,7 +156,7 @@
 		FAAAE1C51C3C5A6000128B2C /* Lesson 21 HW 2 */ = {
 			isa = PBXGroup;
 			children = (
-				FAAAE1F91C3D8C7800128B2C /* ImageFiles */,
+				FA569A951C3EFFD3009FEE73 /* ImageFiles */,
 				FAAAE1C91C3C5A6000128B2C /* AppDelegate.h */,
 				FAAAE1CA1C3C5A6000128B2C /* AppDelegate.m */,
 				FAAAE1CC1C3C5A6000128B2C /* ViewController.h */,
@@ -171,30 +194,6 @@
 				FAAAE1ED1C3C5A6000128B2C /* Info.plist */,
 			);
 			path = "Lesson 21 HW 2UITests";
-			sourceTree = "<group>";
-		};
-		FAAAE1F91C3D8C7800128B2C /* ImageFiles */ = {
-			isa = PBXGroup;
-			children = (
-				FAAAE1FA1C3D8C7800128B2C /* 1.jpg */,
-				FAAAE1FB1C3D8C7800128B2C /* 10.jpg */,
-				FAAAE1FC1C3D8C7800128B2C /* 11.jpg */,
-				FAAAE1FD1C3D8C7800128B2C /* 12.jpg */,
-				FAAAE1FE1C3D8C7800128B2C /* 2.jpg */,
-				FAAAE1FF1C3D8C7800128B2C /* 3.jpg */,
-				FAAAE2001C3D8C7800128B2C /* 4.jpg */,
-				FAAAE2011C3D8C7800128B2C /* 5.jpg */,
-				FAAAE2021C3D8C7800128B2C /* 6.jpg */,
-				FAAAE2031C3D8C7800128B2C /* 7.jpg */,
-				FAAAE2041C3D8C7800128B2C /* 8.jpg */,
-				FAAAE2051C3D8C7800128B2C /* 9.jpg */,
-				FAAAE2061C3D8C7800128B2C /* 21.jpg */,
-				FAAAE2071C3D8C7800128B2C /* 22.jpg */,
-				FAAAE2081C3D8C7800128B2C /* 23.jpg */,
-				FAAAE2091C3D8C7800128B2C /* 24.jpg */,
-			);
-			name = ImageFiles;
-			path = ../../../../../../../Desktop/ImageFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,24 +299,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAAAE2111C3D8C7800128B2C /* 5.jpg in Resources */,
-				FAAAE20F1C3D8C7800128B2C /* 3.jpg in Resources */,
-				FAAAE20B1C3D8C7800128B2C /* 10.jpg in Resources */,
-				FAAAE2151C3D8C7800128B2C /* 9.jpg in Resources */,
+				FA569AA71C3EFFD3009FEE73 /* 10.jpg in Resources */,
 				FAAAE1D61C3C5A6000128B2C /* LaunchScreen.storyboard in Resources */,
-				FAAAE20D1C3D8C7800128B2C /* 12.jpg in Resources */,
-				FAAAE20A1C3D8C7800128B2C /* 1.jpg in Resources */,
-				FAAAE2171C3D8C7800128B2C /* 22.jpg in Resources */,
-				FAAAE2181C3D8C7800128B2C /* 23.jpg in Resources */,
-				FAAAE2141C3D8C7800128B2C /* 8.jpg in Resources */,
-				FAAAE2161C3D8C7800128B2C /* 21.jpg in Resources */,
-				FAAAE2121C3D8C7800128B2C /* 6.jpg in Resources */,
-				FAAAE20C1C3D8C7800128B2C /* 11.jpg in Resources */,
-				FAAAE2191C3D8C7800128B2C /* 24.jpg in Resources */,
+				FA569AA91C3EFFD3009FEE73 /* 12.jpg in Resources */,
+				FA569AA61C3EFFD3009FEE73 /* 1.jpg in Resources */,
+				FA569AAF1C3EFFD3009FEE73 /* 3.jpg in Resources */,
+				FA569AAD1C3EFFD3009FEE73 /* 23.jpg in Resources */,
+				FA569AB11C3EFFD3009FEE73 /* 5.jpg in Resources */,
+				FA569AA81C3EFFD3009FEE73 /* 11.jpg in Resources */,
+				FA569AB51C3EFFD3009FEE73 /* 9.jpg in Resources */,
+				FA569AAC1C3EFFD3009FEE73 /* 22.jpg in Resources */,
+				FA569AB01C3EFFD3009FEE73 /* 4.jpg in Resources */,
+				FA569AB31C3EFFD3009FEE73 /* 7.jpg in Resources */,
+				FA569AB21C3EFFD3009FEE73 /* 6.jpg in Resources */,
+				FA569AB41C3EFFD3009FEE73 /* 8.jpg in Resources */,
+				FA569AAE1C3EFFD3009FEE73 /* 24.jpg in Resources */,
 				FAAAE1D31C3C5A6000128B2C /* Assets.xcassets in Resources */,
-				FAAAE20E1C3D8C7800128B2C /* 2.jpg in Resources */,
-				FAAAE2131C3D8C7800128B2C /* 7.jpg in Resources */,
-				FAAAE2101C3D8C7800128B2C /* 4.jpg in Resources */,
+				FA569AAA1C3EFFD3009FEE73 /* 2.jpg in Resources */,
+				FA569AAB1C3EFFD3009FEE73 /* 21.jpg in Resources */,
 				FAAAE1D11C3C5A6000128B2C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -569,6 +568,7 @@
 				FAAAE1F21C3C5A6000128B2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAAAE1F31C3C5A6000128B2C /* Build configuration list for PBXNativeTarget "Lesson 21 HW 2Tests" */ = {
 			isa = XCConfigurationList;
@@ -577,6 +577,7 @@
 				FAAAE1F51C3C5A6000128B2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAAAE1F61C3C5A6000128B2C /* Build configuration list for PBXNativeTarget "Lesson 21 HW 2UITests" */ = {
 			isa = XCConfigurationList;
@@ -585,6 +586,7 @@
 				FAAAE1F81C3C5A6000128B2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
