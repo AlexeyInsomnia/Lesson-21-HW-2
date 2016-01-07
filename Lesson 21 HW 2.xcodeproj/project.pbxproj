@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAAAE1C81C3C5A6000128B2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAAE1C71C3C5A6000128B2C /* main.m */; };
+		FAAAE1CB1C3C5A6000128B2C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAAE1CA1C3C5A6000128B2C /* AppDelegate.m */; };
+		FAAAE1CE1C3C5A6000128B2C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAAE1CD1C3C5A6000128B2C /* ViewController.m */; };
+		FAAAE1D11C3C5A6000128B2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAAAE1CF1C3C5A6000128B2C /* Main.storyboard */; };
+		FAAAE1D31C3C5A6000128B2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAAAE1D21C3C5A6000128B2C /* Assets.xcassets */; };
+		FAAAE1D61C3C5A6000128B2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAAAE1D41C3C5A6000128B2C /* LaunchScreen.storyboard */; };
+		FAAAE1E11C3C5A6000128B2C /* Lesson_21_HW_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAAE1E01C3C5A6000128B2C /* Lesson_21_HW_2Tests.m */; };
+		FAAAE1EC1C3C5A6000128B2C /* Lesson_21_HW_2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAAE1EB1C3C5A6000128B2C /* Lesson_21_HW_2UITests.m */; };
+		FAAAE20A1C3D8C7800128B2C /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAAE1FA1C3D8C7800128B2C /* 1.jpg */; };
+		FAAAE20B1C3D8C7800128B2C /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAAE1FB1C3D8C7800128B2C /* 10.jpg */; };
+		FAAAE20C1C3D8C7800128B2C /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAAE1FC1C3D8C7800128B2C /* 11.jpg */; };
+		FAAAE20D1C3D8C7800128B2C /* 12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAAE1FD1C3D8C7800128B2C /* 12.jpg */; };
+		FAAAE20E1C3D8C7800128B2C /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAAE1FE1C3D8C7800128B2C /* 2.jpg */; };
+		FAAAE20F1C3D8C7800128B2C /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAAE1FF1C3D8C7800128B2C /* 3.jpg */; };
+		FAAAE2101C3D8C7800128B2C /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAAE2001C3D8C7800128B2C /* 4.jpg */; };
+		FAAAE2111C3D8C7800128B2C /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAAE2011C3D8C7800128B2C /* 5.jpg */; };
+		FAAAE2121C3D8C7800128B2C /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAAE2021C3D8C7800128B2C /* 6.jpg */; };
+		FAAAE2131C3D8C7800128B2C /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAAE2031C3D8C7800128B2C /* 7.jpg */; };
+		FAAAE2141C3D8C7800128B2C /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAAE2041C3D8C7800128B2C /* 8.jpg */; };
+		FAAAE2151C3D8C7800128B2C /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAAE2051C3D8C7800128B2C /* 9.jpg */; };
+		FAAAE2161C3D8C7800128B2C /* 21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAAE2061C3D8C7800128B2C /* 21.jpg */; };
+		FAAAE2171C3D8C7800128B2C /* 22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAAE2071C3D8C7800128B2C /* 22.jpg */; };
+		FAAAE2181C3D8C7800128B2C /* 23.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAAE2081C3D8C7800128B2C /* 23.jpg */; };
+		FAAAE2191C3D8C7800128B2C /* 24.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAAE2091C3D8C7800128B2C /* 24.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAAAE1DD1C3C5A6000128B2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAAAE1BB1C3C5A6000128B2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAAAE1C21C3C5A6000128B2C;
+			remoteInfo = "Lesson 21 HW 2";
+		};
+		FAAAE1E81C3C5A6000128B2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAAAE1BB1C3C5A6000128B2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAAAE1C21C3C5A6000128B2C;
+			remoteInfo = "Lesson 21 HW 2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAAAE1C31C3C5A6000128B2C /* Lesson 21 HW 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lesson 21 HW 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAAAE1C71C3C5A6000128B2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAAAE1C91C3C5A6000128B2C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAAAE1CA1C3C5A6000128B2C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAAAE1CC1C3C5A6000128B2C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FAAAE1CD1C3C5A6000128B2C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FAAAE1D01C3C5A6000128B2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAAAE1D21C3C5A6000128B2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAAAE1D51C3C5A6000128B2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAAAE1D71C3C5A6000128B2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAAAE1DC1C3C5A6000128B2C /* Lesson 21 HW 2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lesson 21 HW 2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAAAE1E01C3C5A6000128B2C /* Lesson_21_HW_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lesson_21_HW_2Tests.m; sourceTree = "<group>"; };
+		FAAAE1E21C3C5A6000128B2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAAAE1E71C3C5A6000128B2C /* Lesson 21 HW 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lesson 21 HW 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAAAE1EB1C3C5A6000128B2C /* Lesson_21_HW_2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lesson_21_HW_2UITests.m; sourceTree = "<group>"; };
+		FAAAE1ED1C3C5A6000128B2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAAAE1FA1C3D8C7800128B2C /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		FAAAE1FB1C3D8C7800128B2C /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+		FAAAE1FC1C3D8C7800128B2C /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
+		FAAAE1FD1C3D8C7800128B2C /* 12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.jpg; sourceTree = "<group>"; };
+		FAAAE1FE1C3D8C7800128B2C /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		FAAAE1FF1C3D8C7800128B2C /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		FAAAE2001C3D8C7800128B2C /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		FAAAE2011C3D8C7800128B2C /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		FAAAE2021C3D8C7800128B2C /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		FAAAE2031C3D8C7800128B2C /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		FAAAE2041C3D8C7800128B2C /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		FAAAE2051C3D8C7800128B2C /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		FAAAE2061C3D8C7800128B2C /* 21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 21.jpg; sourceTree = "<group>"; };
+		FAAAE2071C3D8C7800128B2C /* 22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 22.jpg; sourceTree = "<group>"; };
+		FAAAE2081C3D8C7800128B2C /* 23.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 23.jpg; sourceTree = "<group>"; };
+		FAAAE2091C3D8C7800128B2C /* 24.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 24.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAAAE1C01C3C5A6000128B2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAAAE1D91C3C5A6000128B2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAAAE1E41C3C5A6000128B2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAAAE1BA1C3C5A6000128B2C = {
+			isa = PBXGroup;
+			children = (
+				FAAAE1C51C3C5A6000128B2C /* Lesson 21 HW 2 */,
+				FAAAE1DF1C3C5A6000128B2C /* Lesson 21 HW 2Tests */,
+				FAAAE1EA1C3C5A6000128B2C /* Lesson 21 HW 2UITests */,
+				FAAAE1C41C3C5A6000128B2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAAAE1C41C3C5A6000128B2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAAAE1C31C3C5A6000128B2C /* Lesson 21 HW 2.app */,
+				FAAAE1DC1C3C5A6000128B2C /* Lesson 21 HW 2Tests.xctest */,
+				FAAAE1E71C3C5A6000128B2C /* Lesson 21 HW 2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAAAE1C51C3C5A6000128B2C /* Lesson 21 HW 2 */ = {
+			isa = PBXGroup;
+			children = (
+				FAAAE1F91C3D8C7800128B2C /* ImageFiles */,
+				FAAAE1C91C3C5A6000128B2C /* AppDelegate.h */,
+				FAAAE1CA1C3C5A6000128B2C /* AppDelegate.m */,
+				FAAAE1CC1C3C5A6000128B2C /* ViewController.h */,
+				FAAAE1CD1C3C5A6000128B2C /* ViewController.m */,
+				FAAAE1CF1C3C5A6000128B2C /* Main.storyboard */,
+				FAAAE1D21C3C5A6000128B2C /* Assets.xcassets */,
+				FAAAE1D41C3C5A6000128B2C /* LaunchScreen.storyboard */,
+				FAAAE1D71C3C5A6000128B2C /* Info.plist */,
+				FAAAE1C61C3C5A6000128B2C /* Supporting Files */,
+			);
+			path = "Lesson 21 HW 2";
+			sourceTree = "<group>";
+		};
+		FAAAE1C61C3C5A6000128B2C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAAAE1C71C3C5A6000128B2C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAAAE1DF1C3C5A6000128B2C /* Lesson 21 HW 2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FAAAE1E01C3C5A6000128B2C /* Lesson_21_HW_2Tests.m */,
+				FAAAE1E21C3C5A6000128B2C /* Info.plist */,
+			);
+			path = "Lesson 21 HW 2Tests";
+			sourceTree = "<group>";
+		};
+		FAAAE1EA1C3C5A6000128B2C /* Lesson 21 HW 2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAAAE1EB1C3C5A6000128B2C /* Lesson_21_HW_2UITests.m */,
+				FAAAE1ED1C3C5A6000128B2C /* Info.plist */,
+			);
+			path = "Lesson 21 HW 2UITests";
+			sourceTree = "<group>";
+		};
+		FAAAE1F91C3D8C7800128B2C /* ImageFiles */ = {
+			isa = PBXGroup;
+			children = (
+				FAAAE1FA1C3D8C7800128B2C /* 1.jpg */,
+				FAAAE1FB1C3D8C7800128B2C /* 10.jpg */,
+				FAAAE1FC1C3D8C7800128B2C /* 11.jpg */,
+				FAAAE1FD1C3D8C7800128B2C /* 12.jpg */,
+				FAAAE1FE1C3D8C7800128B2C /* 2.jpg */,
+				FAAAE1FF1C3D8C7800128B2C /* 3.jpg */,
+				FAAAE2001C3D8C7800128B2C /* 4.jpg */,
+				FAAAE2011C3D8C7800128B2C /* 5.jpg */,
+				FAAAE2021C3D8C7800128B2C /* 6.jpg */,
+				FAAAE2031C3D8C7800128B2C /* 7.jpg */,
+				FAAAE2041C3D8C7800128B2C /* 8.jpg */,
+				FAAAE2051C3D8C7800128B2C /* 9.jpg */,
+				FAAAE2061C3D8C7800128B2C /* 21.jpg */,
+				FAAAE2071C3D8C7800128B2C /* 22.jpg */,
+				FAAAE2081C3D8C7800128B2C /* 23.jpg */,
+				FAAAE2091C3D8C7800128B2C /* 24.jpg */,
+			);
+			name = ImageFiles;
+			path = ../../../../../../../Desktop/ImageFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAAAE1C21C3C5A6000128B2C /* Lesson 21 HW 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAAAE1F01C3C5A6000128B2C /* Build configuration list for PBXNativeTarget "Lesson 21 HW 2" */;
+			buildPhases = (
+				FAAAE1BF1C3C5A6000128B2C /* Sources */,
+				FAAAE1C01C3C5A6000128B2C /* Frameworks */,
+				FAAAE1C11C3C5A6000128B2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lesson 21 HW 2";
+			productName = "Lesson 21 HW 2";
+			productReference = FAAAE1C31C3C5A6000128B2C /* Lesson 21 HW 2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAAAE1DB1C3C5A6000128B2C /* Lesson 21 HW 2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAAAE1F31C3C5A6000128B2C /* Build configuration list for PBXNativeTarget "Lesson 21 HW 2Tests" */;
+			buildPhases = (
+				FAAAE1D81C3C5A6000128B2C /* Sources */,
+				FAAAE1D91C3C5A6000128B2C /* Frameworks */,
+				FAAAE1DA1C3C5A6000128B2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAAAE1DE1C3C5A6000128B2C /* PBXTargetDependency */,
+			);
+			name = "Lesson 21 HW 2Tests";
+			productName = "Lesson 21 HW 2Tests";
+			productReference = FAAAE1DC1C3C5A6000128B2C /* Lesson 21 HW 2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAAAE1E61C3C5A6000128B2C /* Lesson 21 HW 2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAAAE1F61C3C5A6000128B2C /* Build configuration list for PBXNativeTarget "Lesson 21 HW 2UITests" */;
+			buildPhases = (
+				FAAAE1E31C3C5A6000128B2C /* Sources */,
+				FAAAE1E41C3C5A6000128B2C /* Frameworks */,
+				FAAAE1E51C3C5A6000128B2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAAAE1E91C3C5A6000128B2C /* PBXTargetDependency */,
+			);
+			name = "Lesson 21 HW 2UITests";
+			productName = "Lesson 21 HW 2UITests";
+			productReference = FAAAE1E71C3C5A6000128B2C /* Lesson 21 HW 2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAAAE1BB1C3C5A6000128B2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Alex;
+				TargetAttributes = {
+					FAAAE1C21C3C5A6000128B2C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					FAAAE1DB1C3C5A6000128B2C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FAAAE1C21C3C5A6000128B2C;
+					};
+					FAAAE1E61C3C5A6000128B2C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FAAAE1C21C3C5A6000128B2C;
+					};
+				};
+			};
+			buildConfigurationList = FAAAE1BE1C3C5A6000128B2C /* Build configuration list for PBXProject "Lesson 21 HW 2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAAAE1BA1C3C5A6000128B2C;
+			productRefGroup = FAAAE1C41C3C5A6000128B2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAAAE1C21C3C5A6000128B2C /* Lesson 21 HW 2 */,
+				FAAAE1DB1C3C5A6000128B2C /* Lesson 21 HW 2Tests */,
+				FAAAE1E61C3C5A6000128B2C /* Lesson 21 HW 2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAAAE1C11C3C5A6000128B2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAAE2111C3D8C7800128B2C /* 5.jpg in Resources */,
+				FAAAE20F1C3D8C7800128B2C /* 3.jpg in Resources */,
+				FAAAE20B1C3D8C7800128B2C /* 10.jpg in Resources */,
+				FAAAE2151C3D8C7800128B2C /* 9.jpg in Resources */,
+				FAAAE1D61C3C5A6000128B2C /* LaunchScreen.storyboard in Resources */,
+				FAAAE20D1C3D8C7800128B2C /* 12.jpg in Resources */,
+				FAAAE20A1C3D8C7800128B2C /* 1.jpg in Resources */,
+				FAAAE2171C3D8C7800128B2C /* 22.jpg in Resources */,
+				FAAAE2181C3D8C7800128B2C /* 23.jpg in Resources */,
+				FAAAE2141C3D8C7800128B2C /* 8.jpg in Resources */,
+				FAAAE2161C3D8C7800128B2C /* 21.jpg in Resources */,
+				FAAAE2121C3D8C7800128B2C /* 6.jpg in Resources */,
+				FAAAE20C1C3D8C7800128B2C /* 11.jpg in Resources */,
+				FAAAE2191C3D8C7800128B2C /* 24.jpg in Resources */,
+				FAAAE1D31C3C5A6000128B2C /* Assets.xcassets in Resources */,
+				FAAAE20E1C3D8C7800128B2C /* 2.jpg in Resources */,
+				FAAAE2131C3D8C7800128B2C /* 7.jpg in Resources */,
+				FAAAE2101C3D8C7800128B2C /* 4.jpg in Resources */,
+				FAAAE1D11C3C5A6000128B2C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAAAE1DA1C3C5A6000128B2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAAAE1E51C3C5A6000128B2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAAAE1BF1C3C5A6000128B2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAAE1CE1C3C5A6000128B2C /* ViewController.m in Sources */,
+				FAAAE1CB1C3C5A6000128B2C /* AppDelegate.m in Sources */,
+				FAAAE1C81C3C5A6000128B2C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAAAE1D81C3C5A6000128B2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAAE1E11C3C5A6000128B2C /* Lesson_21_HW_2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAAAE1E31C3C5A6000128B2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAAE1EC1C3C5A6000128B2C /* Lesson_21_HW_2UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAAAE1DE1C3C5A6000128B2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAAAE1C21C3C5A6000128B2C /* Lesson 21 HW 2 */;
+			targetProxy = FAAAE1DD1C3C5A6000128B2C /* PBXContainerItemProxy */;
+		};
+		FAAAE1E91C3C5A6000128B2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAAAE1C21C3C5A6000128B2C /* Lesson 21 HW 2 */;
+			targetProxy = FAAAE1E81C3C5A6000128B2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAAAE1CF1C3C5A6000128B2C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAAAE1D01C3C5A6000128B2C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAAAE1D41C3C5A6000128B2C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAAAE1D51C3C5A6000128B2C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAAAE1EE1C3C5A6000128B2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAAAE1EF1C3C5A6000128B2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAAAE1F11C3C5A6000128B2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Lesson 21 HW 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Lesson-21-HW-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAAAE1F21C3C5A6000128B2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Lesson 21 HW 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Lesson-21-HW-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAAAE1F41C3C5A6000128B2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Lesson 21 HW 2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Lesson-21-HW-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lesson 21 HW 2.app/Lesson 21 HW 2";
+			};
+			name = Debug;
+		};
+		FAAAE1F51C3C5A6000128B2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Lesson 21 HW 2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Lesson-21-HW-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lesson 21 HW 2.app/Lesson 21 HW 2";
+			};
+			name = Release;
+		};
+		FAAAE1F71C3C5A6000128B2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Lesson 21 HW 2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Lesson-21-HW-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Lesson 21 HW 2";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FAAAE1F81C3C5A6000128B2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Lesson 21 HW 2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Lesson-21-HW-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Lesson 21 HW 2";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAAAE1BE1C3C5A6000128B2C /* Build configuration list for PBXProject "Lesson 21 HW 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAAAE1EE1C3C5A6000128B2C /* Debug */,
+				FAAAE1EF1C3C5A6000128B2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAAAE1F01C3C5A6000128B2C /* Build configuration list for PBXNativeTarget "Lesson 21 HW 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAAAE1F11C3C5A6000128B2C /* Debug */,
+				FAAAE1F21C3C5A6000128B2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAAAE1F31C3C5A6000128B2C /* Build configuration list for PBXNativeTarget "Lesson 21 HW 2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAAAE1F41C3C5A6000128B2C /* Debug */,
+				FAAAE1F51C3C5A6000128B2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAAAE1F61C3C5A6000128B2C /* Build configuration list for PBXNativeTarget "Lesson 21 HW 2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAAAE1F71C3C5A6000128B2C /* Debug */,
+				FAAAE1F81C3C5A6000128B2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAAAE1BB1C3C5A6000128B2C /* Project object */;
+}
